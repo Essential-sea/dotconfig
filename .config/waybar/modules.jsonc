@@ -1,0 +1,178 @@
+{	"clock": {
+	    "format": "  {:%a %R %Z}",
+	    "format-alt": " {:%W %A %B %d %Y (%R %Z)}",
+		"tooltip": true,
+	    "tooltip-format": "<big>{:%Y %B %d %W %A %R %Z}\n{tz_list}</big>\n<tt><small>{calendar}</small></tt>",
+	    "calendar": {
+	         "mode": "year",
+			 "mode-mon-col"  : 4,
+	         "weeks-pos"     : "right",
+	         "on-scroll"     : 1,
+	         "on-click-right": "mode",
+	         "format": {
+	              "months":     "<span color='#a9c080'><b>{}</b></span>",
+	              "days":       "<span color='#d3c6aa'><b>{}</b></span>",
+	              "weeks":      "<span color='#7fbbb3'><b>W{}</b></span>",
+	              "weekdays":   "<span color='#7fbbb3'><b>{}</b></span>",
+	              "today":      "<span color='#a7c080'><b><u>{}</u></b></span>"
+	         }
+		}, 
+		"timezones": [
+			  "Asia/Shanghai", 
+			  "Etc/UTC", "America/New_York", "America/Los_Angeles"
+		],
+	    "actions": {
+	         "on-click-right": "mode",
+	         "on-click-forward": "tz_up",
+	         "on-click-backward": "tz_down",
+	         "on-scroll-up": "shift_up",
+	         "on-scroll-down": "shift_down"
+	    }
+	},
+	
+	"disk":{
+		"interval": 1,
+		"format": "{percentage_used}% on {total} ",
+		"unit": "GB",
+		"on-click": "nautilus"
+	},
+	
+	"cpu":{
+		"interval": 1,
+		"format":"{usage}% "
+	},
+	"memory":{
+		"interval":1,
+		"format":"{percentage}% "
+	},
+	"wireplumber": {
+	    "format": "{volume}% {icon} ",
+	    "format-muted": "",
+	    "on-click": "pavucontrol",
+	    "format-icons": ["", "", ""],
+		"format-bluetooth": "{volume}% "
+},
+	"battery": {
+		// "bat": "BAT1",
+		"interval":1,
+	    "states": {
+			// "good": 95,
+	        "warning": 30,
+	        "critical": 15
+	    },
+	    "format": "{capacity}% {icon}",
+	    "format-charging": "{capacity}% ",
+	    "format-plugged": "{capacity}% ",
+	    "format-alt": "{time}{icon}",
+	    // "format-good": "", // An empty format will hide the module
+	    // "format-full": "",
+	    "format-icons": ["", "", "", "", ""]
+	},
+	"temperature": {
+	                // "thermal-zone": 2,
+	                // "hwmon-path": ["/sys/class/hwmon/hwmon2/temp1_input", "/sys/class/thermal/thermal_zone0/temp"],
+	                // "critical-threshold": 80,
+					// "format-critical": "{temperatureC}°C ",
+	                "format": "{temperatureC}°C "
+	},
+	"tray": {
+	                // "icon-size": 21,
+	                "spacing": 10
+	},
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon} {randomIcon} {repeatIcon} {singleIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+        "format-disconnected": "Disconnected ",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon} Stopped ",
+        "unknown-tag": "N/A",
+        "interval": 2,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+	"wlr/taskbar": {
+	                "format": "{name} {icon}",
+					// "icon-size": 14pt,
+	                "icon-theme": "Numix-Circle",
+					"active-first": true,
+	                "tooltip-format": "{title}",
+	                "on-click": "activate",
+	                "on-click-right": "close",
+					"on-click-middle": "fullscreen",
+					// "ignore-list": [
+						// "Alacritty",
+						// "kitty"
+					// ],
+					// "app_ids-mapping": {
+					//      "firefox-nightly": "firefox"
+					// },
+	                "rewrite": {
+	                     "Firefox Nightly": "nightly",
+	                     "Foot Server": "Terminal"
+	                }
+	},
+	"hyprland/workspaces": {
+		"format": "{id}",
+		"format-icons": {
+			"active": ""
+			// "default": ""
+		},
+		"persistent-workspaces": {
+			"*": 5 // 5 workspaces by default on every monitork
+		},
+  "window-rewrite": {
+	"title<.*youtube.*>": "", // Windows whose titles contain "youtube"
+	"class<firefox>": "", // Windows whose classes are "firefox"
+	"class<firefox> title<.*github.*>": "", // Windows whose class is "firefox" and title contains "github". Note that "class" always comes first.
+	"kitty": "" // Windows that contain "foot" in either class or title. For optimization reasons, it will only match against a title if at least one other window explicitly matches against a title.
+  		}
+	},
+  //   "hyprland/workspaces": {
+  // "format": "<sub>{icon}</sub>\n{windows}",
+  // "format-window-separator": "\t",
+  // "window-rewrite-default": "",
+  // "window-rewrite": {
+  //   "title<.*youtube.*>": "", // Windows whose titles contain "youtube"
+  //   "class<firefox>": "", // Windows whose classes are "firefox"
+  //   "class<firefox> title<.*github.*>": "", // Windows whose class is "firefox" and title contains "github". Note that "class" always comes first.
+  //   "kitty": "", // Windows that contain "foot" in either class or title. For optimization reasons, it will only match against a title if at least one other window explicitly matches against a title.
+  //   "code": "󰨞",
+  //       },
+  //   },
+	"hyprland/window": {
+	    "format": "👉 {}",
+	    "rewrite": {
+	        "(.*) — Firefox Nightly": "🌎 $1",
+			"(.*) — vim"  : " $1",
+	    },
+	    "separate-outputs": true
+	},
+	"network": {
+  	"interface": "wlan0",
+  	"format": "{ifname}",
+  	"format-wifi": " {essid} ({signalStrength}%)  ",
+  	"format-ethernet": "{ifname} ",
+      // "format-disconnected": "", //An empty format will hide the module.
+  	"format-disconnected": "disconnected ",
+  	"tooltip-format": "{ifname}",
+  	"tooltip-format-wifi": "{essid} ({signalStrength}%)  ",
+  	"tooltip-format-ethernet": "{ifname}  ",
+  	"tooltip-format-disconnected": "Disconnected",
+  	"max-length": 30
+  }
+}
