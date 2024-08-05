@@ -1,0 +1,4 @@
+status_bar_font_size 20
+new_command _dual_panelify python -m sioyek.dual_panelify "%{sioyek_path}" "%{file_path}" "%{command_text}"
+new_command _translate_selected_text python -m sioyek.translate "%{sioyek_path}" "%{selected_text}"
+new_command _translate_current_line_text python -m sioyek.translate "%{sioyek_path}" "%{line_text}"
