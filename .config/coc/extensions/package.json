@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "coc-pairs": ">=1.4.2",
+    "coc-python": ">=1.2.13",
+    "coc-jedi": ">=0.36.1",
+    "coc-vimtex": ">=1.1.5",
+    "coc-sh": ">=1.2.2",
+    "coc-json": ">=1.9.2"
+  },
+  "lastUpdate": 1722787574780
+}

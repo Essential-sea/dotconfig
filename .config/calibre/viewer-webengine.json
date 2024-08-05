@@ -1,0 +1,120 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 1011,
+      "width": 1894,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1011,
+      "width": 1894,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1011,
+      "width": 1894,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB2UAAAPyAAAAAAAAAAAAAAdlAAAD8gAAAAAAAAAAB4AAAAAAAAAAAAAAB2UAAAPy"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "11_0_16",
+      "model": "DELL SE2216H",
+      "name": "HDMI-A-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 3840,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAJ0A////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAtwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACqAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAS0A////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAHQD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAQMA////AAAHZgAAA/MAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "base_font_size": 22,
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "*everforest",
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "兰小欢"
+        ],
+        "key": "/home/nhp/Downloads/置身事内 中国政府与经济发展 (兰小欢) (Z-Library).mobi",
+        "pathtoebook": "/home/nhp/Downloads/置身事内 中国政府与经济发展 (兰小欢) (Z-Library).mobi",
+        "timestamp": "2024-07-22T07:38:02.190Z",
+        "title": "置身事内 中国政府与经济发展"
+      },
+      {
+        "authors": [
+          "陆铭",
+          "兰小欢",
+          "曹东勃",
+          "高渊",
+          "张军"
+        ],
+        "key": "/home/nhp/Calibre 书库/Lu Ming/Da Guo Zhi Zhi (Tao Zhuang 6Ce )[(Jing Ji Xue Jia Lu Ming , Lan Xiao Huan , Zhang Jun Deng Cong (3)/Da Guo Zhi Zhi (Tao Zhuang 6Ce )[(Jing Ji - Lu Ming.epub",
+        "pathtoebook": "/home/nhp/Calibre 书库/Lu Ming/Da Guo Zhi Zhi (Tao Zhuang 6Ce )[(Jing Ji Xue Jia Lu Ming , Lan Xiao Huan , Zhang Jun Deng Cong (3)/Da Guo Zhi Zhi (Tao Zhuang 6Ce )[(Jing Ji - Lu Ming.epub",
+        "timestamp": "2024-07-04T10:38:29.293Z",
+        "title": "大国之治（套装6册）【经济学家陆铭、兰小欢、张军等从宏观到微观，从经济学理论到经济发展实践，解锁看懂中国发展的全新视角。关注实践中的具体案例，思考中国发展的底层逻辑】"
+      },
+      {
+        "authors": [
+          "[美]尼尔·波兹曼"
+        ],
+        "key": "/home/nhp/Downloads/娱乐至死 (尼尔·波兹曼) (Z-Library).epub",
+        "pathtoebook": "/home/nhp/Downloads/娱乐至死 (尼尔·波兹曼) (Z-Library).epub",
+        "timestamp": "2024-05-22T16:51:15.175Z",
+        "title": "娱乐至死"
+      },
+      {
+        "authors": [
+          "张筑生"
+        ],
+        "key": "/home/nhp/Calibre 书库/Zhang Zhu Sheng/Shu Xue Fen Xi Xin Jiang Quan 3Ce Tao Zhuang (2)/Shu Xue Fen Xi Xin Jiang Quan 3Ce Tao Zhua - Zhang Zhu Sheng.epub",
+        "pathtoebook": "/home/nhp/Calibre 书库/Zhang Zhu Sheng/Shu Xue Fen Xi Xin Jiang Quan 3Ce Tao Zhuang (2)/Shu Xue Fen Xi Xin Jiang Quan 3Ce Tao Zhua - Zhang Zhu Sheng.epub",
+        "timestamp": "2024-03-16T08:09:53.210Z",
+        "title": "数学分析新讲全3册套装"
+      }
+    ],
+    "user_color_schemes": {
+      "*everforest": {
+        "background": "#272e33",
+        "foreground": "#d3c6aa",
+        "link": "#7fbbb3",
+        "name": "everforest"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+#
+#  █████╗ ██╗      █████╗  ██████╗██╗████████╗████████╗██████╗ ██╗   ██╗
+# ██╔══██╗██║     ██╔══██╗██╔════╝██║╚══██╔══╝╚══██╔══╝██╔══██╗╚██╗ ██╔╝
+# ███████║██║     ███████║██║     ██║   ██║      ██║   ██████╔╝ ╚████╔╝
+# ██╔══██║██║     ██╔══██║██║     ██║   ██║      ██║   ██╔══██╗  ╚██╔╝
+# ██║  ██║███████╗██║  ██║╚██████╗██║   ██║      ██║   ██║  ██║   ██║
+# ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝   ╚═╝
+#
+# Alacritty Config File by Arfan Zubi
+
+
+live_config_reload = true
+
+[window]
+position =  { x = 0, y = 0 }
+padding = { x = 0, y = 0 }
+dynamic_padding = true
+decorations = "Full"
+opacity = 0.8
+resize_increments = true
+
+[font]
+normal = { family = "CodeNewRoman Nerd Font", style = "bold" }
+size = 15
+
+[colors]
+primary = { foreground = "#d3c6aa", background = "#272e33" }
+
+[colors.normal]
+black = "#51576D"
+blue = "#8CAAEE"
+cyan = "#81C88E"
+green = "#A6D189"
+magenta = "#F4BBE4"
+red = "#E78284"
+white = "#B5BFE2"
+yellow = "#E5C890"
+
+[cursor]
+style = { shape = "Underline", blinking = "Always" }
+
+[mouse]
+hide_when_typing = true
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Key1"
+mods = "Control"
