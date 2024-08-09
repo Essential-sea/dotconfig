@@ -7,10 +7,11 @@
 ;;   :straight t)
 (add-to-list 'custom-theme-load-path "~/.emacs.d/everforest-theme")
 
-
+(straight-use-package '(nano-theme :type git :host github
+                                   :repo "rougier/nano-theme"))
 
 (use-package hima-theme
-  :ensure t)
+  :straight t)
 (use-package catppuccin-theme
   :ensure t)
 (use-package circadian
@@ -20,8 +21,8 @@
   (setq calendar-longitude 34.69)
 
   (setq circadian-themes '(
-			   ("7:30"   .  adawaita)
-			   ("19:30"  .  everforest-hard-dark)
+			   ("7:30"   .  nano-light)
+			   ("19:30"  .  nano-dark)
 			   ))
   (circadian-setup))
 

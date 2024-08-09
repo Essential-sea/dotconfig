@@ -3,9 +3,9 @@
   :after tex
   :straight (:host github :repo "cdominik/cdlatex" )
   )
-;; (use-package xenops
-;;   :ensure t
-;;   :after tex)
+ ;; (use-package xenops
+ ;;   :straight t
+ ;;   :after tex)
 (use-package tex
   :straight
   auctex
@@ -17,7 +17,7 @@
   (LaTeX-mode . TeX-fold-mode)
   (LaTeX-mode . yas-minor-mode)
   ;(LaTeX-mode . flycheck-mode)
-  ;(LaTeX-mode . xenops-mode)
+  ;; (LaTeX-mode . xenops-mode)
   )
   :config
   (setq TeX-auto-save t)

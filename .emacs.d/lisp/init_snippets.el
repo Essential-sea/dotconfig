@@ -3,7 +3,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (use-package yasnippet
-  :ensure t
+  :straight t
   :init
   :hook
   (prog-mode . yas-minor-mode )
@@ -28,7 +28,7 @@
 
 
 (use-package yasnippet-snippets
-  :ensure t
+  :straight t
   :after yasnippet
 )
 (provide 'init_snippets)

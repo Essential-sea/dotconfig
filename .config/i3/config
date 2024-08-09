@@ -410,7 +410,7 @@ exec --no-startup-id numlockx on
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
 exec --no-startup-id sleep 1 && feh --bg-fill \
-		 /home/nhp/Pictures/wallhaven-ymz61d_3840x2160.png
+		 /home/nhp/Pictures/wallhaven-p9pro3_3840x2160.png
 # set powersavings for display:
 # exec --no-startup-id xset s 480 dpms 600 600 600
 

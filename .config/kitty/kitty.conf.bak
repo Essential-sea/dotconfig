@@ -341,6 +341,6 @@ map opt+cmd+,    debug_config
 
 
 # BEGIN_KITTY_THEME
-# Adwaita light
+# Ayu
 include current-theme.conf
 # END_KITTY_THEME

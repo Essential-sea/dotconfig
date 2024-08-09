@@ -9,7 +9,7 @@
 ;;与projectile插件配合使用
 
 (use-package dashboard
- :ensure t
+ :straight t
  :config
  (setq dashboard-banner-logo-title "Hacking Emacs") ;; 个性
  ;; 签名，随读者喜好设置

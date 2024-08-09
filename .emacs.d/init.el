@@ -1,5 +1,5 @@
 ;;-*-code:utf8-*-
- (when init-file-debug
+(when init-file-debug
         (setq use-package-verbose t
               use-package-expand-minimally nil
               use-package-compute-statistics t
