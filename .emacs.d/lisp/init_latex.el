@@ -24,15 +24,16 @@
   (setq TeX-parse-self t)
   (setq-default TeX-master t)
 ;; ;; PDF正向搜索相关设置
-;;   (setq TeX-PDF-mode t)
-;;   (setq TeX-source-correlate-mode t)
-;;   (setq TeX-source-correlate-method 'synctex)
+  (setq TeX-PDF-mode t)
+  (setq TeX-source-correlate-mode t)
+  (setq TeX-source-correlate-method 'synctex)
 ;;   (setq TeX-view-program-selection
 ;; 	'(("Sumatrapdf"
 ;; 	   ("\"c:/ProgramData/scoop/apps/sumatrapdf/current/SumatraPDF.exe\"
 ;;           -reuse-instance" (mode-io-correlate " -forward-search %b %n ") "
 ;;         %o"))))
-  (setq TeX-view-program-selection '(("sioyek")
+  (setq TeX-view-program-selection '(("sioyek"
+				      ("/usr/bin/sioyek"))
 				     ))
   :custom
   (LaTeX-preview-setup t)

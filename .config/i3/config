@@ -556,7 +556,7 @@ client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 #                 active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple
 #                 inactive_workspace	$darkgrey   		$darkgrey	$grey		$purple
 #                 urgent_workspace	$urgentred	    	$urgentred	$white		$purple
-#         }
+		# }
 # }
 
 # you can add different bars for multidisplay setups on each display:

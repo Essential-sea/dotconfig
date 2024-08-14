@@ -20,5 +20,5 @@ eval "$(thefuck --alias)"
 #
 #
 PATH+=/usr/local/texlive/2024/bin/x86_64-linux
-# MANPATH+=/usr/local/texlive/2024/texmf-dist/doc/man
-# INFOPATH+=/usr/local/texlive/2024/texmf-dist/doc/info
+MANPATH+=/usr/local/texlive/2024/texmf-dist/doc/man
+INFOPATH+=/usr/local/texlive/2024/texmf-dist/doc/info

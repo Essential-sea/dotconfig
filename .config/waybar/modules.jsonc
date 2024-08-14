@@ -69,10 +69,11 @@
 	    "format-icons": ["", "", "", "", ""]
 	},
 	"temperature": {
-	                // "thermal-zone": 2,
-	                // "hwmon-path": ["/sys/class/hwmon/hwmon2/temp1_input", "/sys/class/thermal/thermal_zone0/temp"],
+					"thermal-zone": 2,
+					"hwmon-path": ["/sys/class/hwmon/hwmon5/temp1_input", "/sys/class/thermal/thermal_zone2/temp"],
 	                // "critical-threshold": 80,
 					// "format-critical": "{temperatureC}°C ",
+					"interval": 1,
 	                "format": "{temperatureC}°C "
 	},
 	"tray": {
@@ -122,7 +123,7 @@
 					//      "firefox-nightly": "firefox"
 					// },
 	                "rewrite": {
-	                     "Firefox Nightly": "nightly",
+	                     "Firefox-Nightly": "nightly",
 	                     "Foot Server": "Terminal"
 	                }
 	},
@@ -174,5 +175,13 @@
   	"tooltip-format-ethernet": "{ifname}  ",
   	"tooltip-format-disconnected": "Disconnected",
   	"max-length": 30
-  }
+  },
+	"backlight": {
+		"format": "{icon}", 
+		"format-icons": ["", ""],
+		"on-scroll-down": "brightnessctl -d intel_backlight s 5%- | cut -d'.' -f1 > $SWAYSOCK.wob",
+		"on-scroll-up": "brightnessctl -d intel_backlight s +5%+ | cut -d'.' -f1 > $SWAYSOCK.wob",
+		"on-click": "gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'",
+		"on-click-right": "gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
+	}
 }
