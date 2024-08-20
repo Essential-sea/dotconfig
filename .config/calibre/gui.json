@@ -131,14 +131,14 @@
     },
     "maximized": true,
     "normal_geometry": {
-      "height": 1004,
-      "width": 1876,
-      "x": 0,
-      "y": 0
+      "height": 1021,
+      "width": 948,
+      "x": 9,
+      "y": 50
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAJAAAAMgAAA7wAAAQuAAAAAAAAAAAAAAdTAAAD6wAAAAACAAAAB4AAAAAJAAAAMgAAA7wAAAQu"
+      "__value__": "AdnQywADAAAAAAAJAAAAMgAAA7wAAAQuAAAACQAAADIAAAO8AAAELgAAAAACAAAAB4AAAAAJAAAAMgAAA7wAAAQu"
     },
     "screen": {
       "depth": 24,
@@ -150,10 +150,10 @@
         "y": 0
       },
       "index_in_screens_list": 0,
-      "manufacturer": "LG Display",
-      "model": "",
-      "name": "eDP-1",
-      "serial": "",
+      "manufacturer": "Dell Inc.",
+      "model": "DELL SE2216H",
+      "name": "HDMI-0",
+      "serial": "V14JM586C1VI",
       "size_in_logical_pixels": {
         "height": 1080,
         "width": 1920
@@ -270,7 +270,7 @@
   },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/nhp/Calibre 书库": 14
+    "/home/nhp/Calibre 书库": 16
   },
   "main_window_central_widget_state": {
     "layout": "wide",

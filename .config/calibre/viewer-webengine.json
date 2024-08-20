@@ -44,7 +44,7 @@
       },
       "virtual_geometry": {
         "height": 1080,
-        "width": 3840,
+        "width": 3520,
         "x": 0,
         "y": 0
       }
@@ -52,7 +52,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAJ0A////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAtwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACqAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAS0A////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAHQD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAQMA////AAAHZgAAA/MAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAAD8/wCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAD8wAAAJ0A////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAtwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACqAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAS0A////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAHQD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAQMA////AAAHZgAAA/MAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
@@ -67,6 +67,33 @@
       "singleinstance": false
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "【美】史蒂芬·平克;侯新智 欧阳明亮 魏薇译"
+        ],
+        "key": "/home/nhp/Documents/情景策略/情景与心理/当下的启蒙 _ 为理性、科学、人文主义和进步辩护.epub",
+        "pathtoebook": "/home/nhp/Documents/情景策略/情景与心理/当下的启蒙 _ 为理性、科学、人文主义和进步辩护.epub",
+        "timestamp": "2024-08-17T14:10:24.244Z",
+        "title": "当下的启蒙：为理性、科学、人文主义和进步辩护"
+      },
+      {
+        "authors": [
+          "Edward Dolnick"
+        ],
+        "key": "/home/nhp/Downloads/机械宇宙艾萨克·牛顿、皇家学会与现代世界的诞生 (Edward Dolnick, 黄珮玲) (Z-Library).epub",
+        "pathtoebook": "/home/nhp/Downloads/机械宇宙艾萨克·牛顿、皇家学会与现代世界的诞生 (Edward Dolnick, 黄珮玲) (Z-Library).epub",
+        "timestamp": "2024-08-17T14:05:46.431Z",
+        "title": "机械宇宙：艾萨克·牛顿、皇家学会与现代世界的诞生"
+      },
+      {
+        "authors": [
+          "Edward Dolnick"
+        ],
+        "key": "/home/nhp/Calibre 书库/Edward Dolnick/The Clockwork Universe_ Isaac Newton, the Royal Society, and the Birth of the Modern World (4)/The Clockwork Universe_ Isaac Newton, the - Edward Dolnick.epub",
+        "pathtoebook": "/home/nhp/Calibre 书库/Edward Dolnick/The Clockwork Universe_ Isaac Newton, the Royal Society, and the Birth of the Modern World (4)/The Clockwork Universe_ Isaac Newton, the - Edward Dolnick.epub",
+        "timestamp": "2024-08-17T10:11:49.108Z",
+        "title": "The Clockwork Universe: Isaac Newton, the Royal Society, and the Birth of the Modern World"
+      },
       {
         "authors": [
           "兰小欢"
