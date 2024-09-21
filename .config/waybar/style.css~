@@ -2,7 +2,7 @@
 
 
 *{
-	font-family: FiraCode Nerd Font, Roboto Nerd Font;
+	font-family: CodeNewRoman Nerd Font, FiraCode Nerd Font, Roboto Nerd Font;
 	font-size: 14pt;
 }
 

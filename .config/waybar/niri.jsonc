@@ -11,7 +11,7 @@
 	"fixed-center": true,
 	"passthrough":"true",
 	"reload-style-on-change": true,
-	"include": "/home/nhp/.config/waybar/modules.jsonc",
+	"include": "/home/moonsea/.config/waybar/modules.jsonc",
 	"modules-left":[
 		"wlr/taskbar",
 		"network",

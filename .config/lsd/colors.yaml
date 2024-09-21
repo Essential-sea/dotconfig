@@ -1,9 +1,9 @@
-user: 245
-group: 245
+user: 230
+group: 187
 permission:
-  read: dark_green
-  write: dark_yellow
-  exec: dark_red
+  read: dark_yellow
+  write: dark_blue
+  exec: dark_green
   exec-sticky: 5
   no-access: 245
   octal: 6
@@ -15,9 +15,9 @@ date:
   older: 36
 size:
   none: 245
-  small: 214
-  medium: 202
-  large: 160
+  small: 229
+  medium: 216
+  large: 172
 inode:
   valid: 13
   invalid: 245
@@ -25,14 +25,3 @@ links:
   valid: 13
   invalid: 245
 tree-edge: 245
-git-status:
-  default: 245
-  unmodified: 245
-  ignored: 245
-  new-in-index: dark_green
-  new-in-workdir: dark_green
-  typechange: dark_yellow
-  deleted: dark_red
-  renamed: dark_green
-  modified: dark_yellow
-  conflicted: dark_red
